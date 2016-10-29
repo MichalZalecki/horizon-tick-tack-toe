@@ -1,0 +1,9 @@
+[groups.admin]
+[groups.admin.rules.carte_blanche]
+template = "any()"
+
+[groups.default.rules.read_games]
+template = "collection('games').anyRead()"
+
+[groups.authenticated.rules.store_games]
+template = "collection('games').anyWrite()"

@@ -1,0 +1,8 @@
+node_modules
+build
+.env
+rethinkdb_data
+**/*.log
+.hz/secrets.toml
+server/ssl/cert.pem
+server/ssl/key.pem
